@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #303030 url(back.jpg);
+	font-family: sans-serif;
+}
+
+/* helpers BEGIN */
+.rtl { direction: rtl; }
+.ltr { direction: ltr; }
+.mb-0 { margin-bottom: 0 }
+.pull-left { float: left }
+.pull-right { float: right }
+.text-center { width: 100%; text-align: center; }
+.button,
+button {
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #ff4081;
+	border-radius: 4px;
+	margin: 0;
+	padding: 12px 22px;
+	text-decoration: none;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+.button:hover,
+button:hover {
+	background-color: #ff4081;
+}
+/* helpers END */
+
+/* Page BEGIN */
+.Page {
+	max-width: 720px;
+	min-height: 420px;
+	background-color: #303030;
+	margin: 170px auto 70px;
+	left: 0; right: 0;
+	box-shadow: 0 0 325px;
+	border-radius: 4px;
+	padding: 22px 32px;
+}
+.Page > img.AppLogo {
+	max-width: 107px;
+	margin: 0 7px;
+}
+.Page > ul.Screenshots {
+	height: 420px;
+	padding: 0 0 12px;
+	margin: 42px -32px 0;
+	white-space: nowrap;
+	overflow-x: auto;
+	list-style: none;
+}
+.Page > ul.Screenshots > li {
+	display: inline-block;
+	height: 100%;
+	width: 230px;
+	margin: 0 7px;
+	border-radius: 4px;
+	background-color: white;
+	overflow: hidden;
+}
+.Page > ul.Screenshots > li > img { height: 100% }
+.Page > .MarketLink > img {
+	max-width: 170px;
+	box-shadow: 0 0 0;
+	transition-duration: .7s;
+}
+.Page > .MarketLink.PlayStore > img {
+	max-width: 196px;
+	margin-bottom: -12px;
+}
+.Page > .MarketLink.soon {
+	position: relative;
+	filter: grayscale(1);
+	pointer-events: none;
+}
+.Page > .MarketLink.soon:after {
+	content: "Soon";
+	color: white;
+	position: absolute;
+	width: 70px;
+	text-align: center;
+	left: 0; right: 0;
+	bottom: -17px;
+	margin: 0 auto;
+	font-weight: lighter;
+}
+.Page > #Get_The_App:target + .MarketLink > img {
+	max-width: 220px;
+	box-shadow: 0 0 350px;
+}
+.Page > ul.Links {
+	width: 100%;
+	margin: 52px 0 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.Page > .Links > li {
+	display: inline-block;
+	margin: 0 7px;
+}
+.Page > .Links > li > a {
+	color: #ff4081;
+	font-weight: lighter;
+}
+.Page h1,
+.Page h2,
+.Page h3,
+.Page p,
+.Page small { color: white }
+.Page hr { border: 1px solid #777 }
+/* Page END */
