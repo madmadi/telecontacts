@@ -1,6 +1,5 @@
 # Telecontacts
 _An Android application for Telegram contacts synchronization._
-#### [Website](https://ibben.org/telecontacts/)
 
 ## GET THE APP
 You can get the app through the markets
@@ -9,5 +8,3 @@ You can get the app through the markets
 			<img src='https://s.cafebazaar.ir/2/images/get-cafebazaar-en.png'
 					 alt='Telecontacts on cafebazaar'
            width='210'></a>
-
-### <a href='privacy_policy'>Privacy Policy</a>
